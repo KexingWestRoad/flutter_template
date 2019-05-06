@@ -16,6 +16,7 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 ## demo
-<div>
-    <div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/ios.png"/>
-    <div align=right><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/ios.png"/></div>
+# ios
+<div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/ios.png"/>
+# Android
+<div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/ios.png"/>
