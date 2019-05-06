@@ -19,4 +19,4 @@ samples, guidance on mobile development, and a full API reference.
 <div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/ios.png"/>
 
 ## Android
-<div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/ios.png"/>
+<div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/android.png"/>
