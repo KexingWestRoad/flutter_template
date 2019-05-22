@@ -22,7 +22,7 @@ class DetailPage extends StatelessWidget {
     }
   }
   
-  class Todo {
+class Todo {
     final String title;
     final String description;
     Todo(this.title,this.description);

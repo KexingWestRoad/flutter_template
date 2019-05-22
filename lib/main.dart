@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'pages/tabbar/TabBarPage.dart';
+import 'package:flutter_template/pages/tabbar/TabBarPage.dart';
+import 'package:flutter_template/pages/welcome/welcome_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,6 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      routes: {
+        '/TabBarPage': (ctx) => new TabBarPage(),
+      },
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: TabBarPage(),
+      home: new WelcomePage(),
     );
   }
 }
