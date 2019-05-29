@@ -52,39 +52,23 @@ class _TabBarPageState extends State<TabBarPage> {
               Icons.home,
               color: getIconColor(0),
             ),
-            title: Text(
-              tabbarTitles[0],
-              style: TextStyle(color: getIconColor(0))
-            ),
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.videocam,
+              Icons.event_note,
               color: getIconColor(1),
             ),
-            title: Text(
-              tabbarTitles[1],
-              style: TextStyle(color: getIconColor(1))
-            ),
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.message,
+              Icons.notifications,
               color: getIconColor(2),
-            ),
-            title: Text(
-              tabbarTitles[2],
-              style: TextStyle(color: getIconColor(2))
             ),
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.perm_identity,
               color: getIconColor(3),
-            ),
-            title: Text(
-              tabbarTitles[3],
-              style: TextStyle(color: getIconColor(3))
             ),
           ),
         ],

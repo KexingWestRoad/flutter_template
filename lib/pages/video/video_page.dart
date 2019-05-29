@@ -18,6 +18,12 @@ class _VideoPageState extends State<VideoPage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
+      body: new Center(
+        child: Image.asset(
+          "assets/images/launch.png",
+          fit: BoxFit.fill,
+          ),
+      ),
     );
   }
 }
