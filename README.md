@@ -16,10 +16,10 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 ## ios
-<div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/ios.png"/>
+<div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/ios_sliver_grid.png"/>
 
 ## Android
-<div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/android.png"/>
+<div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/android_sliver_grid.png"/>
 
 ## ios_listview
 <div align=left><img width="320" height="640" src="https://github.com/LDKFighter/flutter_template/blob/master/examples/ios_listview.png"/>
