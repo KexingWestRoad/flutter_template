@@ -261,9 +261,7 @@ Widget buildFolderView(BuildContext context, Item item) {
         ),
       ),
       child: FlatButton(
-        onPressed: () {
-          print('object');
-        },
+        onPressed: () => routerVC(context),
         child: Text(
           '文件夹${item.title}',
           textAlign: TextAlign.center,
@@ -320,11 +318,16 @@ Widget buildScreenView(BuildContext context, Item item) {
         ),
       ),
       child: FlatButton(
-        onPressed: () {
-          print('object');
-        },
+        onPressed: () => routerVC(context),
         child: null,
       ),
     ),
   );
+}
+
+routerVC (BuildContext context) {
+  Navigator.push(context, MaterialPageRoute(
+    builder: (context) => DetailPage(todo: Todo("Todo",
+            "A description of what needs to be done for Todo")),
+  ));
 }
