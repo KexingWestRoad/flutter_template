@@ -81,7 +81,6 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget getItem(int index, String title) {
-    //return new Text(title);
     return new Card(
       child: new FlatButton(
         onPressed: () => _routerVC(index),
